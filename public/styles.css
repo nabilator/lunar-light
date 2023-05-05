@@ -1,0 +1,33 @@
+/*
+body{
+    background-color: #fafafa;
+}
+p{
+    color: blue;
+   /* background-color: yellow;
+    margin: 50px 30px 20px 100px;
+    border: 1px dashed black;
+    padding: 20px;
+}
+*/
+pre{
+    background-color: rgb(221, 221, 221);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 -3px 2px 2px rgb(180 , 180, 180);
+}
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+pre, code{
+    font-size: 11pt;
+    font-family: 'Iosevka Term', monospace;
+    color: rgb(141, 64, 64);
+}
+
+article p a{
+    color: green;
+}
+article:first-child p a{
+    color: orange;
+}

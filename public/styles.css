@@ -10,6 +10,9 @@ p{
     padding: 20px;
 }
 */
+body{
+    --img-width: 200px;
+}
 pre{
     background-color: rgb(221, 221, 221);
     padding: 8px;
@@ -31,3 +34,9 @@ article p a{
 article:first-child p a{
     color: orange;
 }
+#div_img{
+    background-color: bisque;
+    width: var(--img-width);
+    height: 5em;
+}
+/*comment*/
